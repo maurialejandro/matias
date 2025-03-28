@@ -60,25 +60,25 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Inicio</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre Nosotros</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Proyectos</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
+        <li><a href="index.html#inicio"><i class="bi bi-house navicon"></i>Inicio</a></li>
+        <li><a href="index.html#sobrenosotros"><i class="bi bi-person navicon"></i> Sobre Nosotros</a></li>
+        <li><a href="index.html#proyectos" class="active" ><i class="bi bi-images navicon"></i> Proyectos</a></li>
+        <li><a href="index.html#servicios"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
+        <li><a href="index.html#contacto"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
       </ul>
     </nav>
-
   </header>
   <main class="main">
 
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Proyectos Diseño Interior & Mobiliarios </h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Regresar</a></li>
-            <li class="current">Detalles</li>
+        <!--<h1 class="mb-2 mb-lg-0">Proyectos Diseño Interior & Mobiliarios</h1>-->
+        <h1></h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html#proyectos">Regresar</a></li>
+
           </ol>
         </nav>
       </div>
@@ -88,68 +88,304 @@
     <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Diseño Interior & Mobiliarios</h2>
 
-        <div class="row gy-4">
+        </div>
+        <div class="row align-items-start">
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
+                    <div class="swiper-wrapper align-items-center">
 
-              <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalinderos/1.jpg" class="card-img-top" alt="...">
+                      </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalinderos/2.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalinderos/3.jpg" class="card-img-top" alt="...">
+
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalinderos/4.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalinderos/5.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Casa Linderos</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Buin, Santiago. </li>
+                    <li>Proyecto: Mueble personalizado tocadiscos biblioteca, diseño de interior estar-comedor.
+                    </li>
+                    <li>Año: 2024</li>
+                    <li>Estructura: Melamina, mdf enchapado. </li>
+                  </ul>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
           </div>
 
-         <!--<div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>-->
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
+
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
+
+                    <div class="swiper-wrapper align-items-center">
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/mueblesdormitorio/1.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/mueblesdormitorio/2.jpg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Muebles Dormitorio</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Las Condes, Santiago. </li>
+                    <li>Proyecto: Espaldar cama, Veladores, Mueble Tocador. </li>
+                    <li>Año: 2023</li>
+                    <li>Estructura: Madera laminada, mdf, melamina. </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
+
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
+
+                    <div class="swiper-wrapper align-items-center">
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/1.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/2.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/3.jpg" class="card-img-top" alt="...">
+
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/4.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/5.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/6.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/7.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casamarco/8.jpg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Casa Marco</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Maipú, Santiago. </li>
+                    <li>Proyecto:Muebles de cocina estilo minimalista, Cobertizo. </li>
+                    <li>Año: 2024</li>
+                    <li>Estructura: Melamina, mdf enchapado, superficies staron, madera pino oregón.</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
+
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
+
+                    <div class="swiper-wrapper align-items-center">
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalosalerces/1.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalosalerces/2.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalosalerces/3.jpg" class="card-img-top" alt="...">
+
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalosalerces/4.jpg" class="card-img-top" alt="...">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casalosalerces/5.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Casa Los Alerces</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Pudahuel, Santiago.</li>
+                    <li>Proyecto: Ampliación de cocina, estilo moderno. </li>
+                    <li>Año: 2024</li>
+                    <li>Estructura: Melamina, madera laminada, superficies staron.</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
+
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
+
+                    <div class="swiper-wrapper align-items-center">
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casa1/1.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casa1/2.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casa1/3.jpg" class="card-img-top" alt="...">
+
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="assets/img/diseno-interior-moviliario/casa1/4.jpg" class="card-img-top" alt="...">
+                      </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Casa Satélite</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Ciudad satélite, Santiago.</li>
+                    <li>Proyecto: Walking closet, mueble tocador, Diseño de quincho.</li>
+                    <li>Año: 2022</li>
+                    <li>Estructura: Melamina, mdf enchapado, hormigón armado, cerámica.</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
 
         </div>
 

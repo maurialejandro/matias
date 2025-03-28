@@ -58,13 +58,14 @@
       <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
+
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Inicio</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre Nosotros</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Proyectos</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
+        <li><a href="index.html#inicio"><i class="bi bi-house navicon"></i>Inicio</a></li>
+        <li><a href="index.html#sobrenosotros"><i class="bi bi-person navicon"></i> Sobre Nosotros</a></li>
+        <li><a href="index.html#proyectos" class="active"><i class="bi bi-images navicon"></i> Proyectos</a></li>
+        <li><a href="index.html#servicios"><i class="bi bi-hdd-stack navicon"></i> Servicios</a></li>
+        <li><a href="index.html#contacto"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
       </ul>
     </nav>
 
@@ -74,11 +75,11 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Proyectos Remodelaciones</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Regresar</a></li>
-            <li class="current">Detalles</li>
+        <h1 class="mb-2 mb-lg-0">Remodelaciones</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html#proyectos">Regresar</a></li>
+
           </ol>
         </nav>
       </div>
@@ -89,49 +90,225 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+        <div class="row align-items-start">
+          <div class="col d-flex p-2 bd-highlight">
+              <div class="card" style="width: 35rem">
+                <div class="col">
+                  <div class="portfolio-details-slider swiper init-swiper">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "type": "bullets",
+                          "clickable": true
+                        }
+                      }
+                    </script>
 
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
+                    <div class="swiper-wrapper align-items-center">
 
-              <div class="swiper-wrapper align-items-center">
+                      <div class="swiper-slide">
+                        <img src="assets/img/remodelaciones/casamelipilla/1.jpg" class="card-img-top" alt="...">
+                      </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
+                      <div class="swiper-slide">
+                        <img src="assets/img/remodelaciones/casamelipilla/2.jpg" class="card-img-top" alt="...">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Casa Melipilla</strong></h5>
+                  <h6>Informacion del proyecto: </h6>
+                  <ul>
+                    <li>Ubicación: Melipilla Santiago.</li>
+                    <li>Proyecto: Ampliación segundo piso, diseño fachada general.</li>
+                    <li>Año: 2024</li>
+                    <li>Materialidad:  Acero y metalcon. </li>
+                  </ul>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
               </div>
-              <div class="swiper-pagination"></div>
+          </div>
+          <div class="col d-flex p-2 bd-highlight">
+            <div class="card" style="width: 35rem">
+
+              <div class="col">
+                <div class="portfolio-details-slider swiper init-swiper">
+
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                    }
+                  </script>
+
+                  <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casaesmeralda/1.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casaesmeralda/2.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>Casa Esmeralda</strong></h5>
+                 <h6>Informacion del proyecto: </h6>
+                 <ul>
+                   <li>Ubicación: La Florida, Santiago.</li>
+                   <li>Proyecto:  Ampliación segundo piso, remodelación en primer piso y diseño fachadas.</li>
+                   <li>Año: 2024</li>
+                   <li>Materialidad: Acero y metalcon.</li>
+                 </ul>
+               </div>
+
             </div>
           </div>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="row align-content-start">
+           <div class="col d-flex p-2 bd-highlight">
+            <div class="card" style="width: 35rem">
+              <div class="col">
+                <div class="portfolio-details-slider swiper init-swiper">
+
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                    }
+                  </script>
+
+                  <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casamarbella/1.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casamarbella/2.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casamarbella/3.jpeg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casamarbella/5.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/casamarbella/6.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>Casa Marbella</strong></h5>
+                <h6>Informacion del proyecto: </h6>
+                <ul>
+                  <li>Ubicación: Puchuncaví, Valparaíso. </li>
+                  <li>Proyecto: Ampliación de quincho, cobertizos intencionados en ventanas y accesos.</li>
+                  <li>Año: 2023</li>
+                  <li>Materialidad: Madera pino radiata, hormigón armado pulido. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex p-2 bd-highlight">
+            <div class="card" style="width: 35rem">
+              <div class="col">
+                <div class="portfolio-details-slider swiper init-swiper">
+
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                    }
+                  </script>
+
+                  <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/barberiario/1.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/barberiario/2.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/barberiario/3.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="swiper-slide">
+                      <img src="assets/img/remodelaciones/barberiario/4.jpg" class="card-img-top" alt="...">
+                    </div>
+
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><strong>Barbería Glo</strong></h5>
+                <h6>Informacion del proyecto: </h6>
+                <ul>
+                  <li>Ubicación: San Bernardo, Santiago.</li>
+                  <li>Proyecto: Remodelación interior, muebles interiores personalizados. </li>
+                  <li>Año: 2025</li>
+                  <li>Materialidad: Madera pino radiata, melamina, mdf enchapado.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
          <!--<div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
